@@ -18,6 +18,11 @@
     z-index: 99;
 }
 
+.bg-theme-color {
+    background-color: var(--blue-theme);
+    opacity: .8;
+}
+
 
 /*** Spinner ***/
 #spinner {
