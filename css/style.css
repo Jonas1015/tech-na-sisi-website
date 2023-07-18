@@ -100,6 +100,18 @@
     margin-top: 10px !important;
 }
 
+@media (max-width: 480px) {
+
+    .navbar-toggler {
+        margin-top: 5px !important;
+    }
+
+    .navbar-toggler-icon {
+        color: var(--primary);
+        margin: 25px 0 0 15px !important;
+    }
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
